@@ -1,0 +1,6 @@
+{
+  "name": "CivicLens",
+  "description": "An AI-powered civic issue detection platform that allows citizens to report local infrastructure issues, analyze them via Gemini, and monitor them on a live municipal dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
