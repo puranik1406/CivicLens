@@ -6,11 +6,21 @@ export interface Report {
   description: string;
   severity: 'Low' | 'Medium' | 'High' | 'Critical';
   suggested_department: string;
+  district: string;
   gemini_response: string;
   status: 'Pending' | 'In Progress' | 'Resolved';
   address?: string;
+  area?: string;
+  ward?: string;
+  city?: string;
+  state?: string;
+  pincode?: string;
   lat?: number;
   lng?: number;
+  assigned_officer?: string;
+  officer_notes?: string;
+  resolved_at?: string;
+  resolution_time_minutes?: number;
 }
 
 export type FilterSeverity = 'All' | 'Low' | 'Medium' | 'High' | 'Critical';
